@@ -25,6 +25,7 @@ urlpatterns = [
     path("news/", views.NewsPageView.as_view(), name="news"),
     path("news/<int:page>/", views.NewsWithPaginatorView.as_view(), name="news_paginator"),
     path("courses/", views.CoursesPageView.as_view(), name="courses"),
+    path("courses_2/", views.Courses2PageView.as_view(), name="courses_2"),
     path("contacts/", views.ContactsPageView.as_view(), name="contacts"),
     path("doc_site/", views.DocSitePageView.as_view(), name="doc_site"),
     path("login/", views.LoginPageView.as_view(), name="login"),

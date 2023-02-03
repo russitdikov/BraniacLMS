@@ -32,6 +32,10 @@ class CoursesPageView(TemplateView):
     template_name = "mainapp/courses_list.html"
 
 
+class Courses2PageView(TemplateView):
+    template_name = "mainapp/courses_list_2.html"
+
+
 class ContactsPageView(TemplateView):
     template_name = "mainapp/contacts.html"
 
